@@ -15,10 +15,10 @@ function isPrime(num) {
     return num > 1;
 }
 
-// Example usage:
+
 const limit = 20;
 const primeGen = primeGenerator(limit);
 
 for (const prime of primeGen) {
-    console.log(prime); // Output: 2, 3, 5, 7, 11, 13, 17, 19
+    console.log(prime); 
 }

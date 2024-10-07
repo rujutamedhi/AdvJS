@@ -18,7 +18,7 @@ function calculator(num1, num2, operation) {
     });
 }
 
-// Example usage:
+
 calculator(10, 5, 'add')
     .then(result => console.log('Result:', result))
     .catch(error => console.error(error));
